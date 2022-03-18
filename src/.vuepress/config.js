@@ -63,6 +63,7 @@ module.exports = {
             'map',
             'mtr',
             '',
+            'rsse-vm-instructions',
             'rsse-vm',
             'rsse',
             'sam',
