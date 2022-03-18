@@ -1,4 +1,5 @@
-# What is SDT?
+# SDT (Sound Data)
+
 The SDT (**S**ound **D**a**t**a) file format is an archive format that contains one or many MPEG-2 Audio Layer II (`*.mp2`) files that are used for sound effects, speech, and music throughout the game.  These files are usually uncompressed (in the archive), and the archive format is relatively simple.
 
 # File Format

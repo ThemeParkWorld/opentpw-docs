@@ -1,4 +1,4 @@
-# RSSE VM
+# RSSE VM Information
 
 Theme Park World uses a stack-based VM in order to give rides and sideshows their functionality. This VM reads from the [RSSE](https://github.com/ThemeParkWorld/OpenTPW/wiki/RSSE-(Ride-&-Sideshow-Script-Engine)) format, and includes over 100 instructions.
 

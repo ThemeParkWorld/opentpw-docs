@@ -1,4 +1,4 @@
-# What is BFST?
+# BFST (Bullfrog String)
 
 The BFST (**B**ull**f**rog **St**ring) file format is used in order to specify strings for each piece of in-game text.  This aids with localization and translation.  BFST files don't have their own character encoding; instead, they use the two BFST files within the BFST's directory in order to specify each character.
 

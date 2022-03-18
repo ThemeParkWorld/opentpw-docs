@@ -1,5 +1,4 @@
-# Texture
-TODO
+# WCT (World Compressed Texture)
 
 ## Header
 - 1 byte - Compression type: 0x12: zlib, 0x13: lzss

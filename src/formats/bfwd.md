@@ -1,4 +1,5 @@
-# What is BFWD (WAD)?
+# BFWD (Bullfrog World Asset Directory)
+
 The BFWD (**B**ull**f**rog **W**A**D**) file format contains compressed (or uncompressed) data for rides, textures, UI elements, and more.  The data within these files is typically compressed using [RefPack](http://wiki.niotso.org/RefPack) (see below).  A variant of this file format, known as WAD (FKNL), is used in the PlayStation 2 version of Theme Park World, however is not compatible with DWFB.
 
 # File Format

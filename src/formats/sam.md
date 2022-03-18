@@ -1,4 +1,5 @@
-# What is SAM?
+# SAM (Settings and Modifiers)
+
 SAM (**S**ettings **a**nd **M**odifiers) is a plain-text format that specifies various options for within the game. These files can be found both within archives and within the base directories for Theme Park World.  
 
 A typical SAM file may look like this:

@@ -1,4 +1,4 @@
-# TQI
+# TQI (Texture Quantized Image)
 
 Note: some of the information here has been taken from https://wiki.multimedia.cx/index.php/Electronic_Arts_Formats.
 

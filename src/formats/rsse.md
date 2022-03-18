@@ -1,4 +1,4 @@
-# What is RSSE?
+# RSSE (Ride / Sideshow Script Engine)
 
 The RSSE (**R**ide / **S**ideshow **S**cript **E**ngine) format consists of two different types of file: RSE, and RSS.  It is used in order to give rides and sideshows their appropriate functionality, and includes audio, animation, and ride functions.
 

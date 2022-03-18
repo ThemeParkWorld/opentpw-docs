@@ -1,4 +1,4 @@
-# VM Instructions
+# RSSE VM Instructions
 
 ## NOP
 

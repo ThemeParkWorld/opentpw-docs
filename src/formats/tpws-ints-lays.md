@@ -1,4 +1,4 @@
-# What is TPWS / INTS / LAYS?
+# TPWS (Theme Park World Save)
 
 TPWS (**T**heme **P**ark **W**orld **S**ave) is the main save format used within Theme Park World, alongside INTS (**In**i**t**ial **S**ave?) and LAYS (Online-related save file, usually named "upload.LAYS"). This file is used to store game progress and likely contains, among other things, a serialized copy of all objects, entities, etc. within a single game level. This file is read from when the level starts in order to carry progress between game sessions.
 

@@ -1,4 +1,4 @@
-# What is BF4?
+# BF4 (Bullfrog Font File Format)
 
 The **B**ull**f**rog **F**ont **F**ile **F**ormat is used in order to store various fonts and font information.
 

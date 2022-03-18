@@ -1,4 +1,4 @@
-# What is BFUM?
+# BFUM (Bullfrog Unicode to Multibyte)
 
 The BFUM (**B**ull**f**rog **U**nicode to **M**ultibyte, not to be confused with [BFMU](https://github.com/xezno/Meme-Park-World/wiki/BFMU)) file format is used in order to convert strings into multibyte-encoded strings so that they can be used in-game.  This is not typically done in-game.
 

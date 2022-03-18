@@ -1,2 +1,3 @@
-# Lip Sync data
+# LIPS (Lip Sync Data)
+
 TODO
