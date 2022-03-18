@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://avatars.githubusercontent.com/u/60822564
 tagline: Documentation for Theme Park World's file formats
 actionText: Quick Start →
 actionLink: /formats/
