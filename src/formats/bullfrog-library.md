@@ -1,0 +1,78 @@
+# Bullfrog Library
+
+File tree:
+
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Colour Conversion\\PalToMaskConverter.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Colour Conversion\\TbRaConvert.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Colour Conversion\\TrueTo16Converter.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Draw\\Draw.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Draw\\LegacyCode\\LbDraw.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Draw\\LegacyCode\\LbPal.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Draw\\LegacyCode\\LbSprCol.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Draw\\LegacyCode\\LbSprStd.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Draw\\LegacyCode\\LbSprite.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Draw\\LegacyCode\\LbText.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Image Loaders\\TbPNGLoader.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\TbRenderArea.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\LbInput.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbDISystemKeyboard.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbDISystemMouse.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbDeviceEventPump.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbDirectInputDevice.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputAsynchronousPointer.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputKeyboardStateHandler.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputLegacyPacketHandler.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputModifierFilter.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputMouseFilter.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputPointerSurface.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputSpritePointerCreator.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputSystem.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Input\\TbInputUserPacketHandler.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Maths\\LbMaths.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Maths\\LbRect.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Maths\\TbRect.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Memory\\LbMem.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Miscellaneous\\Debug\\LbDebug.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Miscellaneous\\Lists\\LbLists.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Miscellaneous\\System Info\\TbSystemInfo.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Miscellaneous\\Time and Date\\LbTime.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Miscellaneous\\Time and Date\\TbTimeStamp.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Multi Threaded\\TbCriticalSection.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Multi Threaded\\WinSema.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Registry Key\\TbRegistry.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Strings\\TbDynamicString.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Strings\\TbStaticString.cpp`
+- `\\Bull_lib\\Dev\\Library85\\Source\\Strings\\TbStringMatch.cpp`
+- `\\bull_lib\\dev\\library85\\source\\compression\\huffman.cpp`
+- `\\bull_lib\\dev\\library85\\source\\compression\\zlib.cpp`
+- `\\bull_lib\\dev\\library85\\source\\direct draw\\screen\\lbscreen.cpp`
+- `\\bull_lib\\dev\\library85\\source\\direct draw\\screen\\winscrn.cpp`
+- `\\bull_lib\\dev\\library85\\source\\direct draw\\surface\\lbsurface.cpp`
+- `\\bull_lib\\dev\\library85\\source\\direct draw\\surface\\tbsurface.cpp`
+- `\\bull_lib\\dev\\library85\\source\\direct draw\\surface\\winsurf.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbdiscaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbdiscaccess.h`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbfilestorageaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbmemfileaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbmultimediadiscaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbmultimediadiscaccess.h`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbquickposaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbrefpackfileaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbwadfileaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbwadstorageaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\_tbzlibfileaccess.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\legacycode\\lbfile.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\legacycode\\winfile.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\tbaccessitem.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\tbmemfile.cpp`
+- `\\bull_lib\\dev\\library85\\source\\files\\tbwadfile.cpp`
+- `\\bull_lib\\dev\\library85\\source\\graphics\\colour conversion\\converter.cpp`
+- `\\bull_lib\\dev\\library85\\source\\graphics\\draw\\text.cpp`
+- `\\bull_lib\\inc\\lbcolour.h`
+- `\\bull_lib\\inc\\lbdraw.h`
+- `\\bull_lib\\inc\\lbfile.h`
+- `\\bull_lib\\inc\\tbcomsmartptr.h`
+- `\\bull_lib\\inc\\tbrefreleasesmartptr.h`
+- `\\bull_lib\\inc\\tbtlist.h`
+
+Please note that this file tree was taken from a debug build of **Theme Park Inc.** and therefore may not be (and should not be considered) representative of the Bullfrog library used within Theme Park World.

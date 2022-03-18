@@ -34,8 +34,8 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Formats',
+        link: '/formats/',
       },
       {
         text: 'Config',
@@ -47,13 +47,29 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/formats/': [
         {
-          title: 'Guide',
+          title: 'Formats',
           collapsable: false,
           children: [
+            'bf4',
+            'bfmu',
+            'bfst',
+            'bfum',
+            'bfwd',
+            'bullfrog-library',
+            'lips',
+            'm3d2',
+            'map',
+            'mtr',
             '',
-            'using-vue',
+            'rsse-vm',
+            'rsse',
+            'sam',
+            'sdt',
+            'tpws-ints-lays',
+            'tqi',
+            'wct',
           ]
         }
       ],
