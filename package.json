@@ -1,0 +1,19 @@
+{
+  "name": "OpenTPW",
+  "version": "0.0.1",
+  "description": "Documentation for Theme Park World&#39;s file formats",
+  "main": "index.js",
+  "authors": {
+    "name": "Alex",
+    "email": "alex@gu3.me"
+  },
+  "repository": "https://github.com/ThemeParkWorld/OpenTPW/OpenTPW",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
