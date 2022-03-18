@@ -1,5 +1,7 @@
 # Bullfrog Library
 
+Please note that this file tree was taken from a debug build of **Theme Park Inc.** and therefore may not be (and should not be considered) representative of the Bullfrog library used within Theme Park World.
+
 File tree:
 
 - `\\Bull_lib\\Dev\\Library85\\Source\\Graphics\\Colour Conversion\\PalToMaskConverter.cpp`
@@ -74,5 +76,3 @@ File tree:
 - `\\bull_lib\\inc\\tbcomsmartptr.h`
 - `\\bull_lib\\inc\\tbrefreleasesmartptr.h`
 - `\\bull_lib\\inc\\tbtlist.h`
-
-Please note that this file tree was taken from a debug build of **Theme Park Inc.** and therefore may not be (and should not be considered) representative of the Bullfrog library used within Theme Park World.

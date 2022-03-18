@@ -2,9 +2,9 @@
 
 The **B**ull**f**rog **F**ont **F**ile **F**ormat is used in order to store various fonts and font information.
 
-# File Format
+## File Format
 
-## Header
+### Header
 
 - 4 bytes: magic number
 - 1 byte: max width
@@ -12,7 +12,7 @@ The **B**ull**f**rog **F**ont **F**ile **F**ormat is used in order to store vari
 - 2 bytes: offset count
 - n bytes: offset list
 
-## Font entry
+### Font entry
 
 - 2 bytes: character
 - 2 bytes: unknown

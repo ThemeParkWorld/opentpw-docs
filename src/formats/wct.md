@@ -1,6 +1,7 @@
 # WCT (World Compressed Texture)
 
 ## Header
+
 - 1 byte - Compression type: 0x12: zlib, 0x13: lzss
 - 1 byte - version
 - 1 byte - bit count
@@ -22,15 +23,15 @@
 ```cpp
 uint32_t GetAlignedSize(uint32_t size)
 {
-	uint32_t value = (size - 1);
-	uint32_t n = 1;
-	for (; (value >>= 1) != 0;){
-		++n;
-	}
-	if (n < 3){
-		n = 3;
-	}
-	return 1 << n;
+ uint32_t value = (size - 1);
+ uint32_t n = 1;
+ for (; (value >>= 1) != 0;){
+  ++n;
+ }
+ if (n < 3){
+  n = 3;
+ }
+ return 1 << n;
 }
 ```
 
