@@ -36,9 +36,9 @@ Here's an example:
 |-----------|---------------------------|
 | 0         | hello.sam                 |
 | 1         | hello.RSE                 |
-| 2         | textures/hello.wct        |
+| 2         | textures\\hello.wct       |
 | 3         | hello2.wct                |
-| 4         | stexture/hello.wct        |
+| 4         | stexture\\hello.wct       |
 | 5         | hello2.wct                |
 
 Here, files 0 and 1 both belong to the root of the archive. Files 2 and 3 exist in the `textures` directory, whereas
