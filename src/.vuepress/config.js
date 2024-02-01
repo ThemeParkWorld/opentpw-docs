@@ -33,6 +33,7 @@ module.exports = {
             'bfmu',
             'bfst',
             'bfum',
+            'bfri',
             'bfwd',
             'bullfrog-library',
             'lips',
