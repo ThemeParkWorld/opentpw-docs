@@ -1,6 +1,6 @@
 # BFMU (Bullfrog Multibyte to Unicode)
 
-The BFMU (**B**ull**f**rog **M**ultibyte to **U**nicode, not to be confused with [BFUM](https://github.com/xezno/Meme-Park-World/wiki/BFUM)) file format is used in order to convert strings into multibyte-encoded strings so that they can be used in-game.  This is not typically done in-game.
+The BFMU (**B**ull**f**rog **M**ultibyte to **U**nicode, not to be confused with [BFUM](/formats/bfum.html)) file format is used in order to convert strings into multibyte-encoded strings so that they can be used in-game.  This is not typically done in-game.
 
 There is typically one BFMU file in each Theme Park World installation called "MBtoUni.dat", located within the game's language folder.
 
