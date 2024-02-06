@@ -21,9 +21,17 @@ The BFWD (**B**ull**f**rog **W**A**D**) file format contains compressed (or unco
 * 4 bytes: Filename length
 * 4 bytes: Data offset
 * 4 bytes: File length
-* 4 bytes: Compression type - "4" for [RefPack](http://wiki.niotso.org/RefPack), "0" for uncompressed
+* 4 bytes: Compression type
 * 4 bytes: Decompressed size
 * 12 bytes: Padding
+
+Compression type shall be one of the following:
+
+| Compression Type                          | value |
+|-------------------------------------------|:-----:|
+| Uncompressed                              |   0   |
+| [zlib](https://zlib.net/)                 |   2   |
+| [RefPack](http://wiki.niotso.org/RefPack) |   4   |
 
 ## Directories
 
@@ -43,4 +51,4 @@ Here's an example:
 
 Here, files 0 and 1 both belong to the root of the archive. Files 2 and 3 exist in the `textures` directory, whereas
 files 4 and 5 belong to the `stexture` directory. Despite file 3 and file 5 both being called `hello2.wct`, they do not
-overlap - they belong in different directories - and therefore they do not conflict. 
+overlap - they belong in different directories - and therefore they do not conflict.
