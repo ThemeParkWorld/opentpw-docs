@@ -21,7 +21,7 @@ The BFWD (**B**ull**f**rog **W**A**D**) file format contains compressed (or unco
 * 4 bytes: Filename length
 * 4 bytes: Data offset
 * 4 bytes: File length
-* 4 bytes: Compression type - "4" for [RefPack](http://wiki.niotso.org/RefPack), "0" for uncompressed
+* 4 bytes: Compression type
 * 4 bytes: Decompressed size
 * 12 bytes: Padding
 
